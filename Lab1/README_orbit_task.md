@@ -50,10 +50,6 @@ The dataset is used to study the relationship between time and position, and pre
 - Plot the predicted vs actual orbital positions over time.
 - Plot the training and validation loss over the epochs to see the model's learning curve.
 
-### 9. Running the Full Code:
-- Copy and paste the provided full code into a single Colab notebook cell and run it sequentially.
-- Ensure the dataset is uploaded and properly referenced.
-
 ## Dependencies and Installation Instructions:
 
 The following Python packages are required to run the code:
