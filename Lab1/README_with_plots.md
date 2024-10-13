@@ -58,20 +58,19 @@ The objective is to predict the **price** of the house based on these features.
    - Plot the **Predicted vs. Actual Prices** using `matplotlib` to visualize how well the model performed.
    - Plot the **Training Loss Curve** to see how the model's performance improves over time.
 
-8. **Running the Full Code**:
-   - You can copy and paste the provided full code into a single Colab notebook cell and run it sequentially. Ensure that the dataset is uploaded and properly referenced.
-
 ---
 
 ## Visualizations
 
 ### 1. Predicted vs. Actual Prices:
 
-![Predicted vs. Actual Prices](https://i.imgur.com/4zcgXfY.png)
+![Predicted vs. Actual Prices](![image](https://github.com/user-attachments/assets/c2c9a0d9-f1ca-4be2-bde0-66188bf20b97)
+)
 
 ### 2. Training Loss Over Time:
 
-![Training Loss Over Time](https://i.imgur.com/WWF8vKF.png)
+![Training Loss Over Time](![image](https://github.com/user-attachments/assets/feb52c16-38e5-4434-a500-6fcab56209c6)
+)
 
 ---
 
