@@ -137,17 +137,6 @@ from tensorflow.keras.models import load_model
 model = load_model('heart_disease_mlp_model.h5')
 ```
 
-## File Structure
-
-```
-project-directory/
-│
-├── heart_disease_data.csv  # The dataset
-├── heart_disease_classification.ipynb  # Jupyter notebook with the code
-├── README.md  # This file
-├── requirements.txt  # Optional - Dependencies file
-└── logs/  # TensorBoard logs (generated after training)
-```
 
 ## Outputs
 
