@@ -67,8 +67,12 @@ matplotlib==3.4.3
 #### Training and Validation Loss
 - The training and validation loss curves help you assess whether the model is underfitting or overfitting.
   
+![Training Loss Plot](plots/training_loss.png)
+
 #### ROC-AUC Curves
 - ROC-AUC curves are plotted for each class, which helps visualize how well the model distinguishes between classes.
+
+![ROC-AUC Plot](plots/roc_auc.png)
 
 ### 6. Run the Code in Jupyter Notebook
 
@@ -102,16 +106,34 @@ matplotlib==3.4.3
 ## Outputs
 
 1. **Accuracy**:
-   - The overall accuracy of the model on the test set.
+   - The overall accuracy of the model on the test set is **100%**.
    
 2. **Confusion Matrix**:
-   - A matrix showing the true vs predicted classifications for each class.
+   ```
+   [[10  0  0]
+    [ 0  9  0]
+    [ 0  0 11]]
+   ```
+   - The confusion matrix indicates perfect classification for all classes.
    
-3. **ROC-AUC Curve**:
-   - ROC curves are plotted for each class (Iris-setosa, Iris-versicolor, Iris-virginica).
-   - The AUC (Area Under the Curve) is used as a performance metric.
+3. **Classification Report**:
+   ```
+                    precision    recall  f1-score   support
 
-4. **Loss Curves**:
+        Iris-setosa       1.00      1.00      1.00        10
+    Iris-versicolor       1.00      1.00      1.00         9
+     Iris-virginica       1.00      1.00      1.00        11
+
+           accuracy                           1.00        30
+          macro avg       1.00      1.00      1.00        30
+       weighted avg       1.00      1.00      1.00        30
+   ```
+
+4. **ROC-AUC Curve**:
+   - ROC curves are plotted for each class (Iris-setosa, Iris-versicolor, Iris-virginica).
+   - The AUC (Area Under the Curve) for all classes is **1.00**, indicating perfect classification.
+
+5. **Loss Curves**:
    - Graphs showing the training and validation loss over each epoch.
 
 ## Model Evaluation
@@ -125,7 +147,7 @@ The model's performance is evaluated using the following metrics:
 ---
 
 ### Notes:
-- The target accuracy for this project is 95% or higher.
+- The target accuracy for this project is 95% or higher, and the current model achieved 100%.
 - Hyperparameter tuning (e.g., the number of layers, neurons, learning rate) can be performed to optimize the model's performance.
 
 ---
