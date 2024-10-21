@@ -67,12 +67,14 @@ matplotlib==3.4.3
 #### Training and Validation Loss
 - The training and validation loss curves help you assess whether the model is underfitting or overfitting.
   
-![Training Loss Plot](plots/training_loss.png)
+![Training Loss Plot](![image](https://github.com/user-attachments/assets/9eb48854-6174-446d-a552-ec6b5582c085)
+)
 
 #### ROC-AUC Curves
 - ROC-AUC curves are plotted for each class, which helps visualize how well the model distinguishes between classes.
 
-![ROC-AUC Plot](plots/roc_auc.png)
+![ROC-AUC Plot](![image](https://github.com/user-attachments/assets/db5eeaf0-e27d-4e73-8cb1-ede8c4598782)
+)
 
 ### 6. Run the Code in Jupyter Notebook
 
