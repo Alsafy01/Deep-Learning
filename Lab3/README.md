@@ -113,34 +113,8 @@ pip install -r requirements.txt
 - `Matplotlib`
 - `scikit-learn`
 
-### Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/username/cnn-fashion-mnist.git
-    cd cnn-fashion-mnist
-    ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. To train the model, run:
-    ```bash
-    python train.py
-    ```
-
-4. To evaluate the model on the test set, run:
-    ```bash
-    python evaluate.py
-    ```
-
 ## Conclusion
 
 The CNN model performed well on the Fashion MNIST dataset, achieving a final test accuracy of 88.25%. While the model shows strong performance across most categories, there is room for improvement, especially in classes like "Shirt". Future work could involve experimenting with different architectures, such as ResNet or EfficientNet, to further improve classification accuracy.
 
-## Future Improvements
 
-1. Experiment with more complex models like ResNet or EfficientNet.
-2. Implement transfer learning for faster training.
-3. Tune hyperparameters such as learning rate, batch size, and dropout rates.
