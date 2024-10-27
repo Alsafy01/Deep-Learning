@@ -87,12 +87,7 @@ The model aims to achieve at least **85% accuracy** on the validation dataset. P
 │   ├── processed_data/          # Directory for processed image data
 │   └── pins_face_dataset/       # Original dataset directory (if downloaded)
 ├── notebooks/
-│   └── model_training.ipynb     # Jupyter notebook for model training
-├── src/
-│   ├── data_preprocessing.py     # Script for data loading and preprocessing
-│   ├── model.py                  # Script defining the ANN model architecture
-│   ├── train.py                  # Script for training the model
-│   └── utils.py                  # Utility functions (e.g., plotting)
+│   └── Multiclass Classification with Pins Face Dataset Using Keras (ANN Only).ipynb     # Jupyter notebook for model training
 ├── requirements.txt              # Required Python packages
 ├── res10_300x300_ssd_iter_140000.caffemodel  # Face detection model file
 └── deploy.prototxt               # Face detection model configuration file
@@ -103,8 +98,3 @@ The model aims to achieve at least **85% accuracy** on the validation dataset. P
 
 This project demonstrates the use of neural networks for image classification tasks. With proper tuning and validation, this model can be enhanced for better performance. 
 
-Feel free to contribute to the project by adding new features or improving the model architecture!
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
