@@ -141,7 +141,8 @@ real_time_caption(model, tokenizer, max_length=40)
 ## 10. Results
 ### Sample Captions:
 - Example image captions from the test set and live feed.
-
+- accuracy: 0.8337 - loss: 0.6811
+- val_accuracy: 0.8116 - val_loss: 0.9897
 ---
 
 ## 11. References
